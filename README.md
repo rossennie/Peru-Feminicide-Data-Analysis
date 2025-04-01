@@ -1,36 +1,32 @@
 # 📊 Peru Feminicide Data Analysis (2012-2023)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cV2T8jsjWE_QPIIUGaFHVWzD2u2QHs44)  
-*(Click the button above to launch interactive analysis)*  
+*(Click the button to run the interactive Notebook)*  
 
-## 🔍 Research Focus
-This data science project reveals critical patterns in feminicide cases across Peru through:
+## 🔍 Project Overview
+Comprehensive statistical analysis of feminicide cases in Peru (2012-2023) examining:
+- Temporal trends and seasonal patterns
+- Geographic distribution across regions
+- Victim demographics (age groups, marital status)
+- Perpetrator-victim relationships
 
-**Temporal Analysis**  
-📅 Identification of high-risk periods and long-term trends  
-![Temporal Trend](https://via.placeholder.com/400x200?text=Temporal+Analysis+Chart)
+## 📈 Key Insights
+### Temporal Analysis
+- Year-over-year case evolution
+- Identification of high-risk periods
 
-**Geographic Hotspots**  
-🗺️ Regional risk mapping with department-level insights  
-![Geographic Distribution](https://via.placeholder.com/400x200?text=Regional+Heatmap)
+### Geographic Patterns
+- Departments with highest incidence rates
+- Regional comparisons
 
-**Victim Profiles**  
-👩 Demographic breakdowns by age, marital status, and more
+### Demographic Findings
+- Most vulnerable age groups
+- Relationship status trends
 
-## 💡 Key Contributions
-- First comprehensive open-source analysis of Peruvian feminicide data
-- Interactive visualizations for policy makers
-- Statistical validation of risk factors
-
-## 🛠️ Technical Stack
-```python
-# Core Analysis
-import pandas as pd  # Data manipulation
-import numpy as np   # Statistical operations
-
-# Visualization
-import plotly.express as px  # Interactive charts
-import matplotlib.pyplot as plt  # Static visuals
-
-# Statistics
-from scipy import stats  # t-tests, chi-square
+## 🛠 Technical Implementation
+| Category        | Technologies Used       |
+|-----------------|-------------------------|
+| Core Analysis   | Python 3, Pandas, NumPy |
+| Visualization   | Plotly, Matplotlib      |
+| Statistics      | SciPy (t-tests, χ²)     |
+| Environment     | Jupyter, Google Colab   |
